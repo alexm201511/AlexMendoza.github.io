@@ -1,0 +1,27 @@
+html { background: #111; }
+body { 
+    background: #ddd;
+    width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    }
+
+   ul.horizontal{
+    list-style: none;
+    background-color: purple;
+    font-family: "merriweather", serif;
+    padding: 1rem;
+    margin: 0 auto;
+    display: inline-flex
+}
+
+Ul.horizontal li{
+    float: left;
+}
+
+ul.horizontal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+} 

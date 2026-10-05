@@ -1,0 +1,53 @@
+html { background: #111; }
+body { 
+    background: #ddd;
+    width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    }
+ul.horizontal{
+    list-style: none;
+    background-color: purple;
+    font-family: "merriweather", serif;
+    padding: 1rem;
+    margin: 0 auto;
+    display: inline-flex
+}
+Ul.horizontal li{
+    float: left;
+}
+ul.horizontal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+}
+h1 {
+    color:black;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bolder;
+    border: 5px solid white
+ }
+
+h2 { 
+    color:black;
+    font-family:"Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    font-weight: bold;
+}
+
+h3 { 
+     color:black;
+    font-family:"Merriweather sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    font-weight: bold;
+}
